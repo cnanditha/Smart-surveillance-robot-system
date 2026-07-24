@@ -14,7 +14,7 @@ Web Interface: See the file named Robot demo.jpeg for the smartphone control das
 6. Compatible battery holder
 7. Power Switch and Jumper Wires
 # Setup and Installation
-1. Programming the ESP32-CAM::
+1. Programming the ESP32-CAM:
 Connect the ESP32-CAM to your computer using the FTDI programmer.
 Open the main sketch file in the Arduino IDE.
 Update the WiFi credentials in the code.
@@ -31,8 +31,8 @@ Turn on the power switch.
 Connect your smartphone to the same WiFi network as the ESP32-CAM.
 Open a web browser and navigate to the IP address from the previous step.
 # Repository Structure
-ESP32_Cam_Car.ino: The main Arduino sketch that initializes the camera, connects to WiFi, and sets up the web servers.
-app_httpd.cpp: Contains the web server logic, HTTP handlers for the video stream, and movement endpoints (/go, /back, /left, /right, /stop, /ledon, /ledoff).
-camera_index.h: A compressed byte array containing the HTML interface.
+ ESP32_Cam_Car.ino: The main Arduino sketch that initializes the camera, connects to WiFi, and sets up the web servers.
+ app_httpd.cpp: Contains the web server logic, HTTP handlers for the video stream, and movement endpoints (/go, /back, /left, /right, /stop, /ledon, /ledoff).
+ camera_index.h: A compressed byte array containing the HTML interface.
 # Video reference:
 https://youtu.be/C-EoBkRQ1M0?si=ciys91pVzXv9lRM0
