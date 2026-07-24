@@ -6,12 +6,13 @@ This repository contains the code and instructions for building a remote-control
 Hardware Setup: See the file named Robot image.jpeg for the fully assembled car.
 Web Interface: See the file named Robot demo.jpeg for the smartphone control dashboard, showing the video feed and movement buttons.
 # Hardware Requirements
-ESP32-CAM Module
-L298N Motor Driver Shield
-FTDI Programmer Module (needed to upload code)
-2-Wheel or 4-Wheel Car Chassis Kit with DC motors
-2x 3.7V 18650 Lithium Cells (1200mAh+) 
-Compatible battery holderPower Switch and Jumper Wires
+1.ESP32-CAM Module
+2.L298N Motor Driver Shield
+3.FTDI Programmer Module (needed to upload code)
+4.2-Wheel or 4-Wheel Car Chassis Kit with DC motors
+5.2x 3.7V 18650 Lithium Cells (1200mAh+) 
+6.Compatible battery holder
+7.Power Switch and Jumper Wires
 # Setup and Installation
 1. Programming the ESP32-CAM
 Connect the ESP32-CAM to your computer using the FTDI programmer.
