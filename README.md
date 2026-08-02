@@ -4,6 +4,7 @@ The Smart Surveillance Robot is an AI-powered IoT monitoring system built with E
 # Project Images
 1. Hardware Setup: See the file named Robot image.jpeg for the fully assembled car.
 2. Web Interface: See the file named Robot demo.jpeg for the smartphone control dashboard, showing the video feed and movement buttons.
+3. YOLO object detection: Open the file named object identification.png to see how the object identification works 
 # Hardware Requirements
 1. ESP32-CAM Module
 2. L298N Motor Driver Shield
